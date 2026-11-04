@@ -338,6 +338,14 @@
       color: var(--muted);
     }
 
+    @media (min-width: 621px) {
+      .detail-grid {
+        max-width: 640px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 34px auto 0;
+      }
+    }
+
     .location {
       color: var(--ink);
       background: var(--paper);
